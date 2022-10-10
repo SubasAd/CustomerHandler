@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "Mahakaal",
+    "db":"mongodb://localhost/ShivaApp_Tests"
+  }
