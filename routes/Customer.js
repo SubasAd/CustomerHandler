@@ -72,6 +72,7 @@ let validateCustomer = (customer) => {
     Phone : Joi.number().required(),
     Adress : Joi.string().min(3).required(),
     SuscribeDate:Joi.date(),
+    ConnectionDate:Joi.date()
 
   };
   const { error } = Joi.validate(customer, schema);

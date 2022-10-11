@@ -28,6 +28,9 @@ const CustomerSchema = new mongoose.Schema({
     SuscribeDate:{
       type:Date
     },
+    ConnectionDate:{
+      type:Date
+    },
   
   PaymentCleared: Boolean,
   PaymentDue: Number,
